@@ -14,6 +14,7 @@
         <module>project-generalSystem-common</module>
         <module>project-generalSystem-system</module>
         <module>project-generalSystem-logging</module>
+        <module>project-generalSystem-loggingFegin</module>
     </modules>
     <packaging>pom</packaging>
 
