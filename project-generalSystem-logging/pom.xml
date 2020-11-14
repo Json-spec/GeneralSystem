@@ -24,11 +24,23 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+         <!--springBoot的aop技术-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
         <!--共用模块-->
         <dependency>
             <groupId>com.generalsystem.project</groupId>
             <artifactId>project-generalSystem-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--引入loggingFegin坐标-->
+        <dependency>
+            <groupId>com.generalsystem.project</groupId>
+            <artifactId>project-generalSystem-loggingFegin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 </project>
