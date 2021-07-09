@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: oauth
+
+  cloud:
+    nacos:
+      config:
+        namespace: d370b8a0-86ad-4cf5-a622-472f94e136c1
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+
+  profiles:
+    active: local
